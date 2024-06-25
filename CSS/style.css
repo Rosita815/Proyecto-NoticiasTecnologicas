@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Oswald", sans-serif ;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: black;
+    color: #fff;
+}
+
+.boton-menu {
+
+}
+.fas {
+}
+.fa-bars {
+}
+.fa-2x {
+}
+.contenedor {
+    display: grid;
+  
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+.navegacion-principal__marca{
+    width: 40px;
+    height: 40px;
+}
+.navegacion-principal__menu {
+    display: flex;
+    list-style-type: none;
+    
+}
+.navegacion-principal__menu li {
+   
+}
+.navegacion-principal__menu li a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.navegacion-principal__menu-derecha {
+    list-style-type: none 
+}
+
+.navegacion-principal__menu-derecha li a i{
+    color: #fff;
+}
+.fa-search {
+}
+.cabecera {
+    display: grid;
+    background-image: url(/Assets/img/showcase.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 30px 10px;
+    justify-items: center;
+    margin: 10px 0;
+}
+.cabecera .boton{
+    display: inline; 
+    text-decoration: none;
+    color: #fff;
+    background-color: darkslategray;
+    border: #fff solid;
+    padding: 5px 5px;
+    margin-top: 12px;
+}
+.boton {
+
+}
+.fa-chevron-right {
+}
+.tarjetas-noticias {
+}
+.tarjetas-noticias__tarjeta {
+}
+.fa-angle-double-right {
+}
+.banner-tarjetas-uno {
+}
+.banner-tarjetas-uno__contenido {
+}
+.banner-tarjetas-dos {
+}
+.banner-tarjetas-dos__contenido {
+}
+.social {
+}
+.social__enlaces {
+}
+.fab {
+}
+.fa-facebook-f {
+}
+.enlaces-pie {
+}
+.enlaces-pie__contenedor {
+}
+.enlaces-pie__lista {
+}
+.pie {
+}
