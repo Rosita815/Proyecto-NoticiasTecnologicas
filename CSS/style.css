@@ -86,8 +86,23 @@ body{
 .fa-chevron-right {
 }
 .tarjetas-noticias {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+   
 }
+
 .tarjetas-noticias__tarjeta {
+    
+}
+.imgTrag{
+    width: 100%;
+}
+.tarjetas-noticias__tarjeta a{
+    text-decoration: none;
+    color: #fff;
+    
 }
 .fa-angle-double-right {
 }
