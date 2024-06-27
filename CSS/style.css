@@ -94,7 +94,9 @@ body{
 }
 
 .tarjetas-noticias__tarjeta {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .imgTrag{
     width: 100%;
@@ -102,7 +104,8 @@ body{
 .tarjetas-noticias__tarjeta a{
     text-decoration: none;
     color: #fff;
-    
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .fa-angle-double-right {
 }
