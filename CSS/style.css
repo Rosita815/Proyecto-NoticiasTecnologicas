@@ -110,16 +110,66 @@ body{
 .fa-angle-double-right {
 }
 .banner-tarjetas-uno {
+   
 }
-.banner-tarjetas-uno__contenido {
+.banner-tarjetas-uno__contenido{
+    display: grid;
+    background-image: url(/Assets/img/tech-red.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-items: center;
+    margin: 20px 0;
+    text-align: center;
+    padding: 50px;
+}
+
+.banner-tarjetas-uno__contenido .boton{
+    display: inline; 
+    text-decoration: none;
+    color: #fff;
+    background-color: darkslategray;
+    border: #fff solid;
+    padding: 5px 5px;
+    margin-top: 10px;
 }
 .banner-tarjetas-dos {
 }
 .banner-tarjetas-dos__contenido {
+    display: grid;
+    background-image: url(/Assets/img/Image-five.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-items: center;
+    padding: 50px;
+    margin: 20px 0;
+    text-align: center;
+}
+.banner-tarjetas-dos__contenido .boton{
+    display: inline; 
+    text-decoration: none;
+    color: #fff;
+    background-color: darkslategray;
+    border: #fff solid;
+    padding: 5px 5px;
+    margin-top: 10px;
 }
 .social {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 .social__enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social__enlaces i{
+    color: #fff;
+}
+.social__enlaces i{
+    color: #fff;
 }
 .fab {
 }
