@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family:"Oswald", sans-serif ;
     width: 90%;
@@ -12,21 +11,9 @@ body{
     background-color: black;
     color: #fff;
 }
-
-.boton-menu {
-
-}
-.fas {
-}
-.fa-bars {
-}
-.fa-2x {
-}
 .contenedor {
-    display: grid;
-  
+    display: grid; 
 }
-
 .navegacion-principal {
     display: flex;
     justify-content: space-between;
@@ -43,9 +30,6 @@ body{
     list-style-type: none;
     
 }
-.navegacion-principal__menu li {
-   
-}
 .navegacion-principal__menu li a{
     color: #fff;
     text-decoration: none;
@@ -54,11 +38,8 @@ body{
 .navegacion-principal__menu-derecha {
     list-style-type: none 
 }
-
 .navegacion-principal__menu-derecha li a i{
     color: #fff;
-}
-.fa-search {
 }
 .cabecera {
     display: grid;
@@ -75,44 +56,35 @@ body{
     display: inline; 
     text-decoration: none;
     color: #fff;
-    background-color: darkslategray;
+    background-color:  rgb(67, 79, 84);
     border: #fff solid;
     padding: 5px 5px;
     margin-top: 12px;
 }
-.boton {
-
-}
-.fa-chevron-right {
-}
 .tarjetas-noticias {
     display: flex;
     gap: 10px;
-    text-align: center;
-    width: 100%;
-    height: 70%;
-}
 
+}
 .tarjetas-noticias__tarjeta {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
-
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100hv;
 }
 .imgTrag{
     width: 100%;
+    height: 170px;
 }
+
 .tarjetas-noticias__tarjeta a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-}
-.fa-angle-double-right {
-}
-.banner-tarjetas-uno {
-   
 }
 .banner-tarjetas-uno__contenido{
     display: grid;
@@ -125,17 +97,14 @@ body{
     text-align: center;
     padding: 50px;
 }
-
 .banner-tarjetas-uno__contenido .boton{
     display: inline; 
     text-decoration: none;
     color: #fff;
-    background-color: darkslategray;
+    background-color:  rgb(67, 79, 84);
     border: #fff solid;
     padding: 5px 5px;
     margin-top: 10px;
-}
-.banner-tarjetas-dos {
 }
 .banner-tarjetas-dos__contenido {
     display: grid;
@@ -152,7 +121,7 @@ body{
     display: inline; 
     text-decoration: none;
     color: #fff;
-    background-color: darkslategray;
+    background-color:  rgb(67, 79, 84);
     border: #fff solid;
     padding: 5px 5px;
     margin-top: 10px;
@@ -161,7 +130,7 @@ body{
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin: 50px;
+    margin: 30px;
 }
 .social__enlaces {
     display: flex;
@@ -176,17 +145,12 @@ body{
     color: #fff;
     
 }
-
-.fab {
-}
-.fa-facebook-f {
-}
 .enlaces-pie {
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: dimgrey;
-    padding: 20px 0 20px 0;
+    background-color: rgb(67, 79, 84);
+    padding: 10px 0 20px 0;
 }
 .enlaces-pie__contenedor {
     display: flex;
@@ -203,7 +167,10 @@ body{
 .pie {
     display: grid;
     text-align: center;
-    background-color: dimgrey;
+    background-color: rgb(67, 79, 84);
     padding: 20px 0 20px 0;
     margin-bottom: 50px;
+}
+.pie h3{
+    color: rgb(135, 163, 164);
 }
